@@ -33,15 +33,51 @@ LEXICON Letters
 
 a:a          Loop ;
 á:a          Loop ;
+ā:a          Loop ;
+â:a          Loop ;
+ǎ:a          Loop ;
+
 e:e          Loop ;
+é:e          Loop ;
+ē:e          Loop ;
+ê:e          Loop ;
+ě:e          Loop ;
+
 ə:e          Loop ;
+ə́:e          Loop ;
 ə̄:e          Loop ;
+ə̂:e          Loop ;
+ə̌:e          Loop ;
+
 ɛ:e          Loop ;
+ɛ́:e          Loop ;
+ɛ̄:e          Loop ;
+ɛ̂:e          Loop ;
+ɛ̌:e          Loop ;
+
 i:i          Loop ;
 í:i          Loop ;
+ī:i          Loop ;
+î:i          Loop ;
+ǐ:i          Loop ;
+
 o:o          Loop ;
 ó:o          Loop ;
+ō:o          Loop ;
+ô:o          Loop ;
+ǒ:o          Loop ;
+
 ɔ:o          Loop ;
+ɔ́:o          Loop ;
+ɔ̄:o          Loop ;
+ɔ̂:o          Loop ;
+ɔ̌:o          Loop ;
+
+u:u          Loop ;
+ú:u          Loop ;
+ū:u          Loop ;
+û:u          Loop ;
+ǔ:u          Loop ;
 
 b:b          Loop ;
 d:d          Loop ;
@@ -58,7 +94,6 @@ p:p          Loop ;
 r:r          Loop ;
 s:s          Loop ;
 t:t          Loop ;
-u:u          Loop ;
 v:v          Loop ;
 w:w          Loop ;
 y:y          Loop ;
