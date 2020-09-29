@@ -6,27 +6,28 @@ LEXICON Root
 
              Trigraphs ;
 
+LEXICON Loop
+             Trigraphs ;
+             # ; 
+
 LEXICON Trigraphs 
 
-mgb:mgb      Digraphs ;
-ndz:ndz      Digraphs ;
+mgb:mgb      Loop ;
+ndz:ndz      Loop ;
              Digraphs  ;
 
 LEXICON Digraphs 
 
-kp:kp        Letters ;
-mb:mb        Letters ;
-dz:dz        Letters ;
-gb:gb        Letters ;
-mv:mv        Letters ;
-nd:nd        Letters ;
-ng:ng        Letters ;
-ny:ny        Letters ;
+kp:kp        Loop ;
+mb:mb        Loop ;
+dz:dz        Loop ;
+gb:gb        Loop ;
+mv:mv        Loop ;
+nd:nd        Loop ;
+ng:ng        Loop ;
+ny:ny        Loop ;
              Letters ;
 
-LEXICON Loop
-             # ; 
-             Letters ;
 
 LEXICON Letters 
 
@@ -37,7 +38,7 @@ e:e          Loop ;
 ə̄:e          Loop ;
 ɛ:e          Loop ;
 i:i          Loop ;
-í:i          Loop ;
+í:i          Loop ;
 o:o          Loop ;
 ó:o          Loop ;
 ɔ:o          Loop ;
