@@ -1,1 +1,18 @@
 # apertium-ewo
+
+
+**Convert:**
+```bash
+$ echo "Á mə̄tádí, ńdɔ Zambá á ngákom yób ai sí" | hfst-proc ewo_OGC-ewo_Miss.autoconv.hfst 
+^Á/a$ ^mə̄tádí/metadi$, ^ńdɔ/ndo$ ^Zambá/Zamba$ ^á/a$ ^ngákom/ngakom$ ^yób/yob$ ^ai/ai$ ^sí/si$
+```
+
+**Analyse:**
+```bash
+$ echo "mendim" | hfst-proc ewo.automorf.hfst 
+^mendim/məndím<n>$
+
+$ echo "məndím" | hfst-proc ewo.automorf.hfst 
+^məndím/məndím<n>$
+```
+
