@@ -1,0 +1,64 @@
+Multichar_Symbols
+
+%>
+
+LEXICON Root
+
+             Trigraphs ;
+
+LEXICON Trigraphs 
+
+mgb:mgb      Digraphs ;
+ndz:ndz      Digraphs ;
+             Digraphs  ;
+
+LEXICON Digraphs 
+
+kp:kp        Letters ;
+mb:mb        Letters ;
+dz:dz        Letters ;
+gb:gb        Letters ;
+mv:mv        Letters ;
+nd:nd        Letters ;
+ng:ng        Letters ;
+ny:ny        Letters ;
+             Letters ;
+
+LEXICON Loop
+             # ; 
+             Letters ;
+
+LEXICON Letters 
+
+a:a          Loop ;
+á:a          Loop ;
+e:e          Loop ;
+ə:e          Loop ;
+ə̄:e          Loop ;
+ɛ:e          Loop ;
+i:i          Loop ;
+í:i          Loop ;
+o:o          Loop ;
+ó:o          Loop ;
+ɔ:o          Loop ;
+
+b:b          Loop ;
+d:d          Loop ;
+f:f          Loop ;
+g:g          Loop ;
+h:h          Loop ;
+k:k          Loop ;
+l:l          Loop ;
+m:m          Loop ;
+n:n          Loop ;
+ń:n          Loop ;
+ŋ:ng         Loop ;
+p:p          Loop ;
+r:r          Loop ;
+s:s          Loop ;
+t:t          Loop ;
+u:u          Loop ;
+v:v          Loop ;
+w:w          Loop ;
+y:y          Loop ;
+z:z          Loop ;
