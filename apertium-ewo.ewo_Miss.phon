@@ -43,11 +43,11 @@ e:e          Loop ;
 ê:e          Loop ;
 ě:e          Loop ;
 
-ə:e          Loop ;
-ə́:e          Loop ;
-ə̄:e          Loop ;
-ə̂:e          Loop ;
-ə̌:e          Loop ;
+ə:ë          Loop ;
+ə́:ë          Loop ;
+ə̄:ë          Loop ;
+ə̂:ë          Loop ;
+ə̌:ë          Loop ;
 
 ɛ:e          Loop ;
 ɛ́:e          Loop ;
