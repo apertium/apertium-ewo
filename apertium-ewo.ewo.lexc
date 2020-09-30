@@ -3,12 +3,14 @@
 Multichar_Symbols 
 
 %<n%>                                  ! Nom comun; Noun
+%<num%>                                ! 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
 
 Nouns ; 
+Numerals ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -16,22 +18,31 @@ LEXICON N
 
 %<n%>:                                 # ;
 
+LEXICON Num
+
+%<num%>:                               # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Numerals 
+
+fóg:fóg                                Num ; ! "un; one"
+tán:tán                                Num ; ! "cinc; five"
 
 LEXICON Nouns 
 
-məndím:məndím                          N ; ! "eau; water"
-yób:yób                                N ; ! "ciel; sky"
-sî:sî                                  N ; ! "tierre; land"
-fàm:fàm                                N ; ! "homme; man"
-zambà:zambà                            N ; ! "dieu; god"
-ekôb:ekôb                              N ; ! "peau; skin"
-nlô:nlô                                N ; ! "tête; head"
-adzó:adzó                              N ; ! "problème; problem" ! PL: mezdó
-wò:wò                                  N ; ! "main; hand" ! PL: mò
-ndá:ndá                                N ; ! "maison; house"
-ndûan:ndûan                            N ; ! "feu; fire"
-ndzón:ndzón                            N ; ! "route; route"
+məndím:məndím                          N   ; ! "eau; water"
+yób:yób                                N   ; ! "ciel; sky"
+sî:sî                                  N   ; ! "tierre; land"
+fàm:fàm                                N   ; ! "homme; man"
+zambà:zambà                            N   ; ! "dieu; god"
+ekôb:ekôb                              N   ; ! "peau; skin"
+nlô:nlô                                N   ; ! "tête; head"
+adzó:adzó                              N   ; ! "problème; problem" ! PL: mezdó
+wò:wò                                  N   ; ! "main; hand" ! PL: mò
+ndá:ndá                                N   ; ! "maison; house"
+ndûan:ndûan                            N   ; ! "feu; fire"
+ndzón:ndzón                            N   ; ! "route; route"
 
 !La femme = Minînga (pluriel : Bininga)
 !L'enfant = Môngö (pluriel : Böngö)
